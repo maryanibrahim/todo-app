@@ -1,11 +1,13 @@
 {
-  "name": "your-package-name",
-  "version": "1.0.0",
-  "description": "Your project description",
-  "keywords": ["keyword1", "keyword2"],
-  "homepage": "https://github.com/owner/project",
-  "bugs": {
-    "url": "https://github.com/owner/project/issues"
+  "name": "package.json",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "homepage": "https://maryanibrahim.github.io/todoapp/",
   "dependencies": {
@@ -22,11 +24,5 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
   }
 }
