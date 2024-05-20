@@ -10,7 +10,7 @@
 .bg {
   background-image: url(./assets/wind.png);
   width: 100%;  /* Adjust this to control the width or set to 100% for full width */
-  height: 400px;  /* Adjust the height as needed */
+  height: 100px;  /* Adjust the height as needed */
   background-position: top right;
   background-repeat: no-repeat;  /* Ensures the image does not repeat */
   background-size: contain;
